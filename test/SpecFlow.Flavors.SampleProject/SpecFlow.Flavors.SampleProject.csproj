@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\src\SpecFlow.Flavors\build\SpecFlow.Flavors.targets"/>
+  <Import Project="..\..\src\SpecFlow.Flavors\build\SpecFlow.Flavors.props"/>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow" Version="3.0.132-beta" />
+    <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.132-beta" />
+    <PackageReference Include="SpecFlow.xUnit" Version="3.0.132-beta" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <SpecFlowFlavorsPlugin>C:\Users\Paul\Source\Repos\SpecFlow.Flavors\src\SpecFlow.Flavors\bin\Debug\netstandard2.0\SpecFlow.Flavors.SpecFlowPlugin.dll</SpecFlowFlavorsPlugin>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SpecFlow.Flavors\SpecFlow.Flavors.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Include="**\*.feature" />
+  </ItemGroup>
+  
+</Project>

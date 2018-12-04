@@ -1,0 +1,15 @@
+﻿<Project TreatAsLocalProperty="TaskFolder;TaskAssembly">
+
+  <ItemGroup>
+    <!-- Include the plugin for SpecFlow to run -->
+    <SpecFlowGeneratorPlugins Include="$(SpecFlowFlavorsPlugin)" />
+    
+    <!-- Copy the plugin to the output directory to ensure it is available when the tests are run. -->
+    <None Include="$(SpecFlowFlavorsPlugin)" >
+      <Link>%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>False</Visible>
+    </None>
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,10 @@
+{
+  "flavors": {
+    "IE": {
+      "tags": [ "Browser: IE" ]
+    },
+    "Chrome": {
+      "tags": [ "Browser: Chrome" ]
+    }
+  }
+}

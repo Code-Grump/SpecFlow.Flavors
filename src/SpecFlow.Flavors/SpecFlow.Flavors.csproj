@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>SpecFlow.Flavors.SpecFlowPlugin</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.0-alpha</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow" Version="3.0.132-beta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="build\SpecFlow.Flavors.props" PackagePath="build\" />
+    <Content Include="build\SpecFlow.Flavors.targets" PackagePath="build\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TechTalk.SpecFlow.Generator">
+      <HintPath>..\..\..\..\..\.nuget\packages\specflow.tools.msbuild.generation\3.0.132-beta\tasks\netcoreapp2.0\TechTalk.SpecFlow.Generator.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
