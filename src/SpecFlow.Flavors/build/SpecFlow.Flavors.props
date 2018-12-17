@@ -1,5 +1,12 @@
 ﻿<Project TreatAsLocalProperty="TaskFolder;TaskAssembly">
 
+  <PropertyGroup>
+    <SpecFlowFlavorsPluginDir Condition="'$(SpecFlowFlavorsPluginDir)' == ''">$(MSBuildThisFileDirectory)..\plugin\</SpecFlowFlavorsPluginDir>
+    <SpecFlowFlavorsPluginTargetDir Condition="'$(MSBuildRuntimeType)' != 'Core' And '$(SpecFlowFlavorsPluginTargetDir)' == ''">$(SpecFlowFlavorsPluginDir)net462\</SpecFlowFlavorsPluginTargetDir>
+    <SpecFlowFlavorsPluginTargetDir Condition="'$(SpecFlowFlavorsPluginTargetDir)' == ''">$(SpecFlowFlavorsPluginDir)netcoreapp2.0\</SpecFlowFlavorsPluginTargetDir>
+    <SpecFlowFlavorsPlugin Condition="'$(SpecFlowFlavorsPlugin)' == ''">$(SpecFlowFlavorsPluginTargetDir)SpecFlow.Flavors.SpecFlowPlugin.dll</SpecFlowFlavorsPlugin>
+  </PropertyGroup>
+  
   <ItemGroup>
     <!-- Include the plugin for SpecFlow to run -->
     <SpecFlowGeneratorPlugins Include="$(SpecFlowFlavorsPlugin)" />

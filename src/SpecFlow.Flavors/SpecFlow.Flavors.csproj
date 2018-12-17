@@ -1,25 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
     <AssemblyName>SpecFlow.Flavors.SpecFlowPlugin</AssemblyName>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <BuildOutputTargetFolder>plugin</BuildOutputTargetFolder>
+    <NoPackageAnalysis>true</NoPackageAnalysis>
     <Version>0.1.0-alpha</Version>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
+    <NoWarn>1701;1702</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="SpecFlow" Version="3.0.154-beta" />
+    <PackageReference Include="SpecFlow.CustomPlugin" Version="3.0.154-beta" />
+    <PackageReference Include="System.CodeDom" Version="4.4.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Include="build\SpecFlow.Flavors.props" PackagePath="build\" />
-    <Content Include="build\SpecFlow.Flavors.targets" PackagePath="build\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="TechTalk.SpecFlow.Generator">
-      <HintPath>..\..\..\..\..\.nuget\packages\specflow.tools.msbuild.generation\3.0.132-beta\tasks\netcoreapp2.0\TechTalk.SpecFlow.Generator.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

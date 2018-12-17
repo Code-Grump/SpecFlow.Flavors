@@ -1,25 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <Import Project="..\..\src\SpecFlow.Flavors\build\SpecFlow.Flavors.targets" />
-  <Import Project="..\..\src\SpecFlow.Flavors\build\SpecFlow.Flavors.props" />
-
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+    <SpecFlowFlavorsPluginDir>C:\Users\Paul\Source\Repos\SpecFlow.Flavors\src\SpecFlow.Flavors\bin\Debug\</SpecFlowFlavorsPluginDir>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="SpecFlow" Version="3.0.154-beta" />
     <PackageReference Include="SpecFlow.Tools.MsBuild.Generation" Version="3.0.154-beta" />
     <PackageReference Include="SpecFlow.xUnit" Version="3.0.154-beta" />
+    <PackageReference Include="System.CodeDom" Version="4.4.0" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
   </ItemGroup>
-
-  <PropertyGroup>
-    <SpecFlowFlavorsPlugin>C:\Users\Paul\Source\Repos\SpecFlow.Flavors\src\SpecFlow.Flavors\bin\Debug\netstandard2.0\SpecFlow.Flavors.SpecFlowPlugin.dll</SpecFlowFlavorsPlugin>
-  </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\SpecFlow.Flavors\SpecFlow.Flavors.csproj" />
@@ -28,5 +24,7 @@
   <ItemGroup>
     <UpToDateCheckInput Include="**\*.feature" />
   </ItemGroup>
-  
+
+  <Import Project="..\..\src\SpecFlow.Flavors\build\SpecFlow.Flavors.props" />
+
 </Project>

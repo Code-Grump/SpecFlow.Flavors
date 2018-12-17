@@ -1,7 +1,9 @@
 ﻿using System;
 using BoDi;
 using SpecFlow.Flavors;
+using SpecFlow.Flavors.Generator;
 using TechTalk.SpecFlow.Generator.Plugins;
+using TechTalk.SpecFlow.Generator.UnitTestConverter;
 using TechTalk.SpecFlow.Infrastructure;
 using TechTalk.SpecFlow.Plugins;
 using TechTalk.SpecFlow.UnitTestProvider;
@@ -31,12 +33,12 @@ namespace SpecFlow.Flavors
 			GeneratorPluginParameters generatorPluginParameters,
 			UnitTestProviderConfiguration unitTestProviderConfiguration)
 		{
-			generatorPluginEvents.CustomizeDependencies += (sender, args) => RegisterGeneratorDependencies(args.ObjectContainer);
+			generatorPluginEvents.CustomizeDependencies += (sender, args) => CustomizeGeneratorDependencies(args.ObjectContainer);
 		}
 
-		private void RegisterGeneratorDependencies(ObjectContainer container)
+		private void CustomizeGeneratorDependencies(ObjectContainer container)
 		{
-
+            container.RegisterTypeAs<FlavoredFeatureGeneratorProvider, IFeatureGeneratorProvider>();
 		}
 	}
 }

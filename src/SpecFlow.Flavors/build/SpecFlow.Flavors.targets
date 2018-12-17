@@ -1,6 +1,0 @@
-﻿<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <SpecFlowFlavorsPlugin>netstandard2.0\SpecFlow.Flavors.SpecFlowPlugin.dll</SpecFlowFlavorsPlugin>
-    <SpecFlowFlavorsPlugin>$(MSBuildThisFileDirectory)$(SpecFlowFlavorsPlugin)</SpecFlowFlavorsPlugin>
-  </PropertyGroup>
-</Project>
