@@ -70,7 +70,7 @@ namespace SpecFlow.Flavors.Generator
 
             var result = generatorResults.First();
 
-            foreach (var generatorResult in generatorResults)
+            foreach (var generatorResult in generatorResults.Skip(1))
             {
                 foreach (CodeTypeDeclaration type in generatorResult.Types)
                 {
@@ -90,7 +90,7 @@ namespace SpecFlow.Flavors.Generator
 
             if (buckets.Count == 1)
             {
-                return new [] { buckets[0].ToList() };
+                return buckets[0].Select(flav => new List<Flavor> {flav});
             }
 
             // Perform a cross-join over all the buckets to get all permutations.
@@ -155,10 +155,12 @@ namespace SpecFlow.Flavors.Generator
 
         private IEnumerable<Flavor> GetFlavors(IEnumerable<Tag> tags)
         {
-            return tags
+            var prefixedTags = tags
                 .Select(tag => tag.Name.Split(new[] {':'}, 2, StringSplitOptions.RemoveEmptyEntries))
                 .Where(parts => parts.Length == 2)
-                .Select(parts => (Prefix: parts[0].Trim(), Value: parts[1].Trim()))
+                .Select(parts => (Prefix: parts[0].TrimStart('@'), Value: parts[1]));
+
+            return prefixedTags
                 .Where(parts => parts.Value != "" && _configuration.FlavourTagPrefixes
                     .Any(prefix => string.Equals(prefix, parts.Prefix, StringComparison.OrdinalIgnoreCase)))
                 .Select(parts => new Flavor(parts.Prefix, parts.Value));

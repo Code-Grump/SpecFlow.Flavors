@@ -1,85 +1,231 @@
-#error Generation error: Message: Value cannot be null.
-Parameter name: featureGenerator
-
-AppDomain Information: 
-	Name: MSBuild.exe
-	BaseDirectory: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\
-
-Loaded Assemblies:
-Fullname | Location | Codebase
-BoDi, Version=1.4.0.0, Culture=neutral, PublicKeyToken=ff7cd5ea2744b496 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\BoDi.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/BoDi.DLL
-Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\Gherkin.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/Gherkin.DLL
-Microsoft.Build, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Build.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Microsoft.Build.DLL
-Microsoft.Build.Framework, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Build.Framework.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Microsoft.Build.Framework.DLL
-Microsoft.Build.Tasks.CodeAnalysis, Version=2.10.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
-Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Microsoft.Build.Tasks.Core.DLL
-Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Build.Utilities.Core.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/Microsoft.Build.Utilities.Core.DLL
-Microsoft.Build.Utilities.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\Microsoft.Build.Utilities.v4.0\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.Build.Utilities.v4.0.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Microsoft.Build.Utilities.v4.0/v4.0_4.0.0.0__b03f5f7f11d50a3a/Microsoft.Build.Utilities.v4.0.dll
-Microsoft.NET.Build.Extensions.Tasks, Version=2.1.501.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/Microsoft/Microsoft.NET.Build.Extensions/tools/net46/Microsoft.NET.Build.Extensions.Tasks.dll
-Microsoft.NET.Build.Tasks, Version=2.1.501.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\Microsoft.NET.Build.Tasks.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/Microsoft.NET.Build.Tasks.dll
-MSBuild, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe
-mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll | file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
-netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\netstandard\v4.0_2.0.0.0__cc7b13ffcd2ddd51\netstandard.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/netstandard/v4.0_2.0.0.0__cc7b13ffcd2ddd51/netstandard.dll
-Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\Newtonsoft.Json.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/Newtonsoft.Json.DLL
-NuGet.Build.Tasks, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.Build.Tasks.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/Common7/IDE/CommonExtensions/Microsoft/NuGet/NuGet.Build.Tasks.dll
-NuGet.Commands, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.Commands.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/Common7/IDE/CommonExtensions/Microsoft/NuGet/NuGet.Commands.DLL
-NuGet.Common, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Common.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Common.DLL
-NuGet.Configuration, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Configuration.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Configuration.DLL
-NuGet.Frameworks, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Frameworks.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Frameworks.DLL
-NuGet.LibraryModel, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.LibraryModel.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.LibraryModel.DLL
-NuGet.Packaging, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Packaging.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Packaging.DLL
-NuGet.Packaging.Core, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Packaging.Core.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Packaging.Core.DLL
-NuGet.ProjectModel, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.ProjectModel.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.ProjectModel.DLL
-NuGet.Versioning, Version=4.9.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\NuGet.Versioning.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/NuGet.Versioning.DLL
-SpecFlow.Flavors.SpecFlowPlugin, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null | C:\Users\Paul\Source\Repos\SpecFlow.Flavors\src\SpecFlow.Flavors\bin\Debug\net462\SpecFlow.Flavors.SpecFlowPlugin.dll | file:///C:/Users/Paul/Source/Repos/SpecFlow.Flavors/src/SpecFlow.Flavors/bin/Debug/net462/SpecFlow.Flavors.SpecFlowPlugin.dll
-SpecFlow.Tools.MsBuild.Generation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\SpecFlow.Tools.MsBuild.Generation.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/SpecFlow.Tools.MsBuild.Generation.dll
-System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll
-System.Collections.Concurrent, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Collections.Concurrent\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.Concurrent.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Collections.Concurrent/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Collections.Concurrent.dll
-System.Collections.Immutable, Version=1.2.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\System.Collections.Immutable.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/System.Collections.Immutable.DLL
-System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\System.Collections.Immutable.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/System.Collections.Immutable.DLL
-System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
-System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll
-System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Diagnostics.Tracing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Diagnostics.Tracing.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Diagnostics.Tracing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Diagnostics.Tracing.dll
-System.IO, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.IO/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.IO.dll
-System.IO.FileSystem, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO.FileSystem\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.FileSystem.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.IO.FileSystem/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.IO.FileSystem.dll
-System.IO.MemoryMappedFiles, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.IO.MemoryMappedFiles\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.IO.MemoryMappedFiles.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.IO.MemoryMappedFiles/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.IO.MemoryMappedFiles.dll
-System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll
-System.Reflection, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Reflection/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Reflection.dll
-System.Reflection.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Reflection.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Reflection.Extensions.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Reflection.Extensions/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Reflection.Extensions.dll
-System.Reflection.Metadata, Version=1.4.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files\dotnet\sdk\2.1.502\Sdks\Microsoft.NET.Sdk\tools\net46\System.Reflection.Metadata.dll | file:///C:/Program Files/dotnet/sdk/2.1.502/Sdks/Microsoft.NET.Sdk/tools/net46/System.Reflection.Metadata.DLL
-System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Runtime.dll
-System.Runtime.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Extensions.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Extensions/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Extensions.dll
-System.Runtime.Handles, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Handles\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.Handles.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Handles/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Handles.dll
-System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.InteropServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Runtime.InteropServices.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.InteropServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Runtime.InteropServices.dll
-System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\System.Runtime.InteropServices.RuntimeInformation.dll | file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/System.Runtime.InteropServices.RuntimeInformation.DLL
-System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Runtime.Serialization/v4.0_4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll
-System.Text.Encoding, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Text.Encoding/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Text.Encoding.dll
-System.Text.Encoding.Extensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Text.Encoding.Extensions\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Text.Encoding.Extensions.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Text.Encoding.Extensions/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Text.Encoding.Extensions.dll
-System.Threading, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Threading/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Threading.dll
-System.Threading.Tasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Threading.Tasks.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Threading.Tasks/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Threading.Tasks.dll
-System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Threading.Tasks.Dataflow\v4.0_4.5.24.0__b03f5f7f11d50a3a\System.Threading.Tasks.Dataflow.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Threading.Tasks.Dataflow/v4.0_4.5.24.0__b03f5f7f11d50a3a/System.Threading.Tasks.Dataflow.dll
-System.Threading.Tasks.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\System.Threading.Tasks.Extensions.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/System.Threading.Tasks.Extensions.DLL
-System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll
-System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089 | C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll | file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml.Linq/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
-TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\TechTalk.SpecFlow.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/TechTalk.SpecFlow.DLL
-TechTalk.SpecFlow.Generator, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\TechTalk.SpecFlow.Generator.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/TechTalk.SpecFlow.Generator.DLL
-TechTalk.SpecFlow.Parser, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\TechTalk.SpecFlow.Parser.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/TechTalk.SpecFlow.Parser.DLL
-TechTalk.SpecFlow.Utils, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\TechTalk.SpecFlow.Utils.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/TechTalk.SpecFlow.Utils.DLL
-TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41 | C:\Users\Paul\.nuget\packages\specflow.xunit\3.0.154-beta\build\net471\TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.dll | file:///C:/Users/Paul/.nuget/packages/specflow.xunit/3.0.154-beta/build/net471/TechTalk.SpecFlow.xUnit.Generator.SpecFlowPlugin.dll
-Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27 | C:\Users\Paul\.nuget\packages\specflow.tools.msbuild.generation\3.0.154-beta\tasks\net471\Utf8Json.dll | file:///C:/Users/Paul/.nuget/packages/specflow.tools.msbuild.generation/3.0.154-beta/tasks/net471/Utf8Json.DLL
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateCamelCase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateOriginal, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullFalseNameMutateSnakeCase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateCamelCase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateOriginal, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-Utf8Json.Resolvers.DynamicObjectResolverAllowPrivateFalseExcludeNullTrueNameMutateSnakeCase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null | unknown | unknown
-
-System.ArgumentNullException: Value cannot be null.
-Parameter name: featureGenerator
-   at SpecFlow.Flavors.Generator.FlavoredFeatureGenerator..ctor(IFeatureGenerator featureGenerator, FlavoringConfiguration configuration)
-   at SpecFlow.Flavors.Generator.FlavoredFeatureGeneratorProvider.CreateGenerator(SpecFlowDocument document)
-   at TechTalk.SpecFlow.Generator.UnitTestConverter.FeatureGeneratorRegistry.CreateGenerator(SpecFlowDocument document)
-   at TechTalk.SpecFlow.Generator.TestGenerator.GenerateTestFileCode(FeatureFileInput featureFileInput)
-   at TechTalk.SpecFlow.Generator.TestGenerator.GetGeneratedTestCode(FeatureFileInput featureFileInput)
-   at TechTalk.SpecFlow.Generator.TestGenerator.GenerateTestFileWithExceptions(FeatureFileInput featureFileInput, GenerationSettings settings)
-   at TechTalk.SpecFlow.Generator.ErrorHandlingTestGenerator.GenerateTestFile(FeatureFileInput featureFileInput, GenerationSettings settings)
+// ------------------------------------------------------------------------------
+//  <auto-generated>
+//      This code was generated by SpecFlow (http://www.specflow.org/).
+//      SpecFlow Version:3.0.0.0
+//      SpecFlow Generator Version:3.0.0.0
+// 
+//      Changes to this file may cause incorrect behavior and will be lost if
+//      the code is regenerated.
+//  </auto-generated>
+// ------------------------------------------------------------------------------
+#region Designer generated code
+#pragma warning disable
+namespace SpecFlow.Flavors.SampleProject
+{
+    using TechTalk.SpecFlow;
+    
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
+    [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [Xunit.TraitAttribute("Category", "Flavour:Vanilla")]
+    [Xunit.TraitAttribute("Category", "Flavour:Chocolate")]
+    [Xunit.TraitAttribute("Category", "Flavour: Vanilla")]
+    public partial class SampleFeature_WithFlavourVanilla : Xunit.IClassFixture<SampleFeature_WithFlavourVanilla.FixtureData>, System.IDisposable
+    {
+        
+        private static TechTalk.SpecFlow.ITestRunner testRunner;
+        
+        private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
+        
+#line 1 "Sample.feature"
+#line hidden
+        
+        public SampleFeature_WithFlavourVanilla(SampleFeature_WithFlavourVanilla.FixtureData fixtureData, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        {
+            this._testOutputHelper = testOutputHelper;
+            this.TestInitialize();
+        }
+        
+        public static void FeatureSetup()
+        {
+            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sample", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
+                    "f two numbers", ProgrammingLanguage.CSharp, new string[] {
+                        "Flavour:Vanilla",
+                        "Flavour:Chocolate",
+                        "Flavour: Vanilla"});
+            testRunner.OnFeatureStart(featureInfo);
+        }
+        
+        public static void FeatureTearDown()
+        {
+            testRunner.OnFeatureEnd();
+            testRunner = null;
+        }
+        
+        public virtual void TestInitialize()
+        {
+        }
+        
+        public virtual void ScenarioTearDown()
+        {
+            testRunner.OnScenarioEnd();
+        }
+        
+        public virtual void ScenarioInitialize(TechTalk.SpecFlow.ScenarioInfo scenarioInfo)
+        {
+            testRunner.OnScenarioInitialize(scenarioInfo);
+            testRunner.ScenarioContext.ScenarioContainer.RegisterInstanceAs<Xunit.Abstractions.ITestOutputHelper>(_testOutputHelper);
+        }
+        
+        public virtual void ScenarioStart()
+        {
+            testRunner.OnScenarioStart();
+        }
+        
+        public virtual void ScenarioCleanup()
+        {
+            testRunner.CollectScenarioErrors();
+        }
+        
+        void System.IDisposable.Dispose()
+        {
+            this.ScenarioTearDown();
+        }
+        
+        [Xunit.FactAttribute(DisplayName="Add two numbers")]
+        [Xunit.TraitAttribute("FeatureTitle", "Sample")]
+        [Xunit.TraitAttribute("Description", "Add two numbers")]
+        public virtual void AddTwoNumbers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, ((string[])(null)));
+#line 8
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 9
+ testRunner.Given("I have entered 50 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+ testRunner.And("I have entered 70 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
+ testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
+ testRunner.Then("the result should be 120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
+        [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        public class FixtureData : System.IDisposable
+        {
+            
+            public FixtureData()
+            {
+                SampleFeature_WithFlavourVanilla.FeatureSetup();
+            }
+            
+            void System.IDisposable.Dispose()
+            {
+                SampleFeature_WithFlavourVanilla.FeatureTearDown();
+            }
+        }
+    }
+    
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
+    [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [Xunit.TraitAttribute("Category", "Flavour:Vanilla")]
+    [Xunit.TraitAttribute("Category", "Flavour:Chocolate")]
+    [Xunit.TraitAttribute("Category", "Flavour: Chocolate")]
+    public partial class SampleFeature_WithFlavourChocolate : Xunit.IClassFixture<SampleFeature_WithFlavourChocolate.FixtureData>, System.IDisposable
+    {
+        
+        private static TechTalk.SpecFlow.ITestRunner testRunner;
+        
+        private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
+        
+#line 1 "Sample.feature"
+#line hidden
+        
+        public SampleFeature_WithFlavourChocolate(SampleFeature_WithFlavourChocolate.FixtureData fixtureData, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        {
+            this._testOutputHelper = testOutputHelper;
+            this.TestInitialize();
+        }
+        
+        public static void FeatureSetup()
+        {
+            testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Sample", "\tIn order to avoid silly mistakes\r\n\tAs a math idiot\r\n\tI want to be told the sum o" +
+                    "f two numbers", ProgrammingLanguage.CSharp, new string[] {
+                        "Flavour:Vanilla",
+                        "Flavour:Chocolate",
+                        "Flavour: Chocolate"});
+            testRunner.OnFeatureStart(featureInfo);
+        }
+        
+        public static void FeatureTearDown()
+        {
+            testRunner.OnFeatureEnd();
+            testRunner = null;
+        }
+        
+        public virtual void TestInitialize()
+        {
+        }
+        
+        public virtual void ScenarioTearDown()
+        {
+            testRunner.OnScenarioEnd();
+        }
+        
+        public virtual void ScenarioInitialize(TechTalk.SpecFlow.ScenarioInfo scenarioInfo)
+        {
+            testRunner.OnScenarioInitialize(scenarioInfo);
+            testRunner.ScenarioContext.ScenarioContainer.RegisterInstanceAs<Xunit.Abstractions.ITestOutputHelper>(_testOutputHelper);
+        }
+        
+        public virtual void ScenarioStart()
+        {
+            testRunner.OnScenarioStart();
+        }
+        
+        public virtual void ScenarioCleanup()
+        {
+            testRunner.CollectScenarioErrors();
+        }
+        
+        void System.IDisposable.Dispose()
+        {
+            this.ScenarioTearDown();
+        }
+        
+        [Xunit.FactAttribute(DisplayName="Add two numbers")]
+        [Xunit.TraitAttribute("FeatureTitle", "Sample")]
+        [Xunit.TraitAttribute("Description", "Add two numbers")]
+        public virtual void AddTwoNumbers()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Add two numbers", null, ((string[])(null)));
+#line 8
+this.ScenarioInitialize(scenarioInfo);
+            this.ScenarioStart();
+#line 9
+ testRunner.Given("I have entered 50 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 10
+ testRunner.And("I have entered 70 into the calculator", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 11
+ testRunner.When("I press add", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 12
+ testRunner.Then("the result should be 120 on the screen", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
+        [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        public class FixtureData : System.IDisposable
+        {
+            
+            public FixtureData()
+            {
+                SampleFeature_WithFlavourChocolate.FeatureSetup();
+            }
+            
+            void System.IDisposable.Dispose()
+            {
+                SampleFeature_WithFlavourChocolate.FeatureTearDown();
+            }
+        }
+    }
+}
+#pragma warning restore
+#endregion
